@@ -1,6 +1,5 @@
 package model;
 
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -55,10 +54,9 @@ public class Plateau {
     }
 
 
-
     @Override
     public String toString() {
         return "Plateau{" + "upperRightXCo=" + upperRightXCo + ", upperRightYCo=" + upperRightYCo +
-                ", numOfRovers=" + numOfRovers + ", roverList=" + roverList +  '}';
+                ", numOfRovers=" + numOfRovers + ", roverList=" + roverList + '}';
     }
 }

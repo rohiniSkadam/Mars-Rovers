@@ -59,6 +59,6 @@ public class Rover {
 
     @Override
     public String toString() {
-        return "Rover{" + "xCo=" + xCo + ", yCo=" + yCo + ", face='" + face + '\'' +", roverCommands=" + Arrays.toString(roverCommands) + '}';
+        return "Rover{" + "xCo=" + xCo + ", yCo=" + yCo + ", face='" + face + '\'' + ", roverCommands=" + Arrays.toString(roverCommands) + '}';
     }
 }
