@@ -4,7 +4,7 @@
 		module="marsrovers$sbt_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170217152027"
+		publication="20170221152516"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

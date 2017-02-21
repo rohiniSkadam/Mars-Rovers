@@ -13,7 +13,7 @@ import java.util.Scanner;
  * Created by synerzip on 16/2/17.
  */
 public class PlateauController {
-    //Logger logger=Logger.getLogger(PlateauController.class);
+    Logger logger=Logger.getLogger(PlateauController.class);
 
     ArrayList<Rover> roverList = new ArrayList<>();
     int roverPosXco = 0, roverPosYco = 0;
@@ -22,6 +22,9 @@ public class PlateauController {
     private Scanner sc = new Scanner(System.in);
     private Plateau plateau = null;
 
+    /**
+     * Function to take Upper Right Coordinate & Rover Count
+     */
     public void getInput() {
         System.out.print("Enter Upper Right Coordinates of the Plateau :  ");
         String upperRightCo = sc.nextLine();
@@ -32,6 +35,10 @@ public class PlateauController {
         getRoverDetails(numOfRovers);
     }
 
+    /**
+     * Function to take Rover Details i.e rover Position & commands for Rover
+     * @param numOfRovers - Number of rovers on plateau
+     */
     public void getRoverDetails(int numOfRovers) {
         String[] cmdArray;
         for (int i = 0; i < numOfRovers; i++) {
@@ -43,29 +50,48 @@ public class PlateauController {
             splitRoverPositions(roverPosition);
             getRoverList(cmdArray);
             plateau = new Plateau(upperRightXco, upperRightYco, numOfRovers, roverList);
-
+            logger.debug(plateau.toString());
         }
         roverPosition(plateau);
     }
 
+    /**
+     * Function to split the Upper Right coordinates Of Plateau
+     * @param upperRightCo - Upper Right Coordinates of Plateau
+     */
     public void splitUpperRightCo(String upperRightCo) {
         String[] upperCoArray = upperRightCo.split(" ");
         upperRightXco = Integer.parseInt(upperCoArray[0]);
         upperRightYco = Integer.parseInt(upperCoArray[1]);
+        logger.debug(upperRightXco+""+upperRightYco);
     }
 
+    /**
+     * Function to split the Rover Positions in X,Y cordinate & its Face
+     * @param roverPosition - Rover Coordinates & its Face
+     */
     public void splitRoverPositions(String roverPosition) {
         String[] roverPositionArray = roverPosition.split(" ");
         roverPosXco = Integer.parseInt(roverPositionArray[0]);
         roverPosYco = Integer.parseInt(roverPositionArray[1]);
         roverFace = roverPositionArray[2];
+        logger.debug(roverPosXco+""+roverPosYco+""+roverFace);
     }
 
+    /**
+     * Function to get the rover list which contain X,Y coordinate , rover face & Array of commands
+     * @param cmdArray - Stores commands given to Rover
+     */
     public void getRoverList(String[] cmdArray) {
         Rover rover = new Rover(roverPosXco, roverPosYco, roverFace, cmdArray);
+        logger.debug("Rover Details : "+rover.toString());
         roverList.add(rover);
     }
 
+    /**
+     * Function to find the rover position & to fire the commands
+     * @param plateau - Object of Plateau to get the rover list
+     */
     public void roverPosition(Plateau plateau) {
         RoverController roverController = new RoverController();
         List<Rover> rList = plateau.getRoverList();
