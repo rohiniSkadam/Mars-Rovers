@@ -6,10 +6,10 @@ import java.util.List;
  * Created by synerzip on 16/2/17.
  */
 public class Plateau {
-    int upperRightXCo;
-    int upperRightYCo;
-    int numOfRovers;
-    List<Rover> roverList;
+    private int upperRightXCo;
+    private int upperRightYCo;
+    private int numOfRovers;
+    private List<Rover> roverList;
 
     public Plateau() {
     }

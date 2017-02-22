@@ -4,7 +4,7 @@
 		module="marsrovers$sources_javadoc_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170221152515"
+		publication="20170222123012"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

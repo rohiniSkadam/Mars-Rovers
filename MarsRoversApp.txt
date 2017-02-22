@@ -7,3 +7,25 @@ DEBUG   2017-02-21 15:41:06,777 [main] controller.PlateauController  - Rover Det
 DEBUG   2017-02-21 15:41:06,777 [main] controller.PlateauController  - Plateau{upperRightXCo=5, upperRightYCo=5, numOfRovers=2, roverList=[Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}, Rover{xCo=3, yCo=3, face='E', roverCommands=[M, M, R, M, M, R, M, R, R, M]}]}
 DEBUG   2017-02-21 15:41:06,778 [main] controller.RoverController  - Rover Face : N
 DEBUG   2017-02-21 15:41:06,779 [main] controller.RoverController  - Rover Face : E
+DEBUG   2017-02-21 16:34:08,461 [main] controller.PlateauController  - 55
+DEBUG   2017-02-21 16:34:32,091 [main] controller.PlateauController  - 12N
+DEBUG   2017-02-21 16:34:32,091 [main] controller.PlateauController  - Rover Details : Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}
+DEBUG   2017-02-21 16:34:32,092 [main] controller.PlateauController  - Plateau{upperRightXCo=5, upperRightYCo=5, numOfRovers=2, roverList=[Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}]}
+DEBUG   2017-02-21 16:35:07,124 [main] controller.PlateauController  - 55
+DEBUG   2017-02-21 16:35:16,779 [main] controller.PlateauController  - 12N
+DEBUG   2017-02-21 16:35:16,780 [main] controller.PlateauController  - Rover Details : Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}
+DEBUG   2017-02-21 16:35:16,781 [main] controller.PlateauController  - Plateau{upperRightXCo=5, upperRightYCo=5, numOfRovers=2, roverList=[Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}]}
+DEBUG   2017-02-21 16:35:40,068 [main] controller.PlateauController  - 33E
+DEBUG   2017-02-21 16:35:40,068 [main] controller.PlateauController  - Rover Details : Rover{xCo=3, yCo=3, face='E', roverCommands=[M, M, R, M, M, R, M, R, R, M]}
+DEBUG   2017-02-21 16:35:40,068 [main] controller.PlateauController  - Plateau{upperRightXCo=5, upperRightYCo=5, numOfRovers=2, roverList=[Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}, Rover{xCo=3, yCo=3, face='E', roverCommands=[M, M, R, M, M, R, M, R, R, M]}]}
+DEBUG   2017-02-21 16:35:40,069 [main] controller.RoverController  - Rover Face : N
+DEBUG   2017-02-21 16:35:40,070 [main] controller.RoverController  - Rover Face : E
+DEBUG   2017-02-22 12:27:53,632 [main] controller.PlateauController  - 55
+DEBUG   2017-02-22 12:28:03,960 [main] controller.PlateauController  - 12N
+DEBUG   2017-02-22 12:28:03,961 [main] controller.PlateauController  - Rover Details : Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}
+DEBUG   2017-02-22 12:28:03,961 [main] controller.PlateauController  - Plateau{upperRightXCo=5, upperRightYCo=5, numOfRovers=2, roverList=[Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}]}
+DEBUG   2017-02-22 12:28:17,599 [main] controller.PlateauController  - 33E
+DEBUG   2017-02-22 12:28:17,599 [main] controller.PlateauController  - Rover Details : Rover{xCo=3, yCo=3, face='E', roverCommands=[M, M, R, M, M, R, M, R, R, M]}
+DEBUG   2017-02-22 12:28:17,600 [main] controller.PlateauController  - Plateau{upperRightXCo=5, upperRightYCo=5, numOfRovers=2, roverList=[Rover{xCo=1, yCo=2, face='N', roverCommands=[L, M, L, M, L, M, L, M, M]}, Rover{xCo=3, yCo=3, face='E', roverCommands=[M, M, R, M, M, R, M, R, R, M]}]}
+DEBUG   2017-02-22 12:28:17,601 [main] controller.RoverController  - Rover Face : N
+DEBUG   2017-02-22 12:28:17,601 [main] controller.RoverController  - Rover Face : E

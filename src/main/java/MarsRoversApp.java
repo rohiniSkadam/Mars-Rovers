@@ -18,6 +18,7 @@ public class MarsRoversApp {
 
 /*
 5 5
+2
 1 2 N
 LMLMLMLMM
 3 3 E

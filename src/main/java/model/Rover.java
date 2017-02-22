@@ -8,10 +8,10 @@ import java.util.Arrays;
 
 public class Rover {
 
-    int xCo;
-    int yCo;
-    String face;
-    String[] roverCommands;
+    private int xCo;
+    private int yCo;
+    private String face;
+    private String[] roverCommands;
 
     public Rover(int xCo, int yCo, String face, String[] roverCommands) {
 
