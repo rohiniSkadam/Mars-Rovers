@@ -7,6 +7,7 @@ We highly recommend using a unit testing framework such as JUnit or NUnit. Even 
 used it before, it is simple to learn and incredibly useful.
 The code you write should be of production quality, and most importantly, it should be code you are
 proud of.
+
 MARS ROVERS
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board
@@ -20,6 +21,7 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 current spot.
 'M' means move forward one grid point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
+
 Input:
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are
 assumed to be 0,0.
@@ -30,6 +32,7 @@ The position is made up of two integers and a letter separated by spaces, corres
 y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to move
 until the first one has finished moving.
+
 Output:
 The output for each rover should be its final co-ordinates and heading.
 Test Input:
